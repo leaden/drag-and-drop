@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Drag and Drop</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+    <section id="contenedor" ondrop="drop(event)" ondragover="finalDrop(event)">
+        <div id="padre-mabel">
+    	<div class="tipo" id="contiene" ondrop="drop(event)" ondragover="finalDrop(event)">
+    	</div>
+    	 </div>
+    	<img src="http://vignette2.wikia.nocookie.net/p__/images/4/4b/Mabel_Pines.png/revision/latest?cb=20130828134415&path-prefix=protagonist" class="mabel" draggable="true" ondragstart="drag(event)" id="mabel3">
+    	<img src="https://vignette4.wikia.nocookie.net/disney/images/7/7f/Mabel-pines.png/revision/latest?cb=20170511020800&path-prefix=es" class="mabel" draggable="true" ondragstart="drag(event)" id="mabel2">
+    	<img src="https://s-media-cache-ak0.pinimg.com/originals/da/e5/38/dae5384bae02b337f8ab80f0cc586c35.png" class="mabel" draggable="true" ondragstart="drag(event)" id="mabel1">
+    </section>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
